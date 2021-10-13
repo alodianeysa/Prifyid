@@ -10,11 +10,61 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;email\&quot;: \&quot;aracktdy+633@gmail.com\&quot;,\n  \&quot;phone\&quot;: \&quot;0851234792004\&quot;,\n  \&quot;selfie\&quot;: \&quot;C:\\Users\\Neysa\\Downloads\\victor-grabarczyk-doxeYXgrwCI-unsplash.jpg\&quot;,\n  \&quot;ktp\&quot;: \&quot;C:\\Users\\Neysa\\Downloads\\fgnsfac6zmr8wi6yb7re.jpg\&quot;,\n  \&quot;nik\&quot;: \&quot;123456564454644\&quot;,\n  \&quot;nama\&quot;: \&quot;Tiffany Kumala\&quot;,\n  \&quot;tanggalLahir\&quot;: \&quot;1983-01-02\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
+  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;name&quot;,
+      &quot;value&quot;: &quot;Nurivah Alodia Neysa&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;phone&quot;,
+      &quot;value&quot;: &quot;089516210335&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;selfie&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\Neysa\\Downloads\\victor-grabarczyk-doxeYXgrwCI-unsplash.jpg&quot;,
+      &quot;type&quot;: &quot;File&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;ktp&quot;,
+      &quot;value&quot;: &quot;C:\\Users\\Neysa\\Downloads\\fgnsfac6zmr8wi6yb7re.jpg&quot;,
+      &quot;type&quot;: &quot;File&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;nik&quot;,
+      &quot;value&quot;: &quot;5171036810990004&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;nama&quot;,
+      &quot;value&quot;: &quot;Nurivah Alodia Neysa&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;tanggalLahir&quot;,
+      &quot;value&quot;: &quot;1999-10-28&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;&quot;
+    }
+  ]
 }</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>multipart/form-data</value>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -45,21 +95,21 @@
    <variables>
       <defaultValue>GlobalVariable.baseUrlApiMerchant</defaultValue>
       <description></description>
-      <id>8fb0896c-d163-4666-a231-b447f84140b4</id>
+      <id>973876e9-927e-4420-bca2-8fb768a6996b</id>
       <masked>false</masked>
       <name>baseUrlApiMerchant</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.userName</defaultValue>
       <description></description>
-      <id>68c04292-500a-436b-ba49-89557e553e23</id>
+      <id>ad6d63e6-fdce-44bd-9408-4b728c09cb94</id>
       <masked>false</masked>
       <name>userName</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.password</defaultValue>
       <description></description>
-      <id>aa1ed4de-add4-4855-97a8-880aa40729d6</id>
+      <id>97d12aae-427f-49d1-a08d-bfc2e13b7e7e</id>
       <masked>false</masked>
       <name>password</name>
    </variables>

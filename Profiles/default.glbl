@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://core.privy.id/v3/merchant'</initValue>
+      <initValue>'https://api-sandbox.privy.id/v3/merchant'</initValue>
       <name>baseUrlApiMerchantDev</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
